@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9589846ce12e2a5448ae760ee7d722df, type: 3}
+  m_Name: Aerodactyl
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  ID: 0
+  name: Aerodactyl
+  description: 
+  frontSprite: {fileID: -3408680597838663119, guid: a75b625e5581cd042ac8060b8bfd181d, type: 3}
+  backSprite: {fileID: -3408680597838663119, guid: 5d6111bebceccf04ca722d3f1f8a4a25, type: 3}
+  type1: 13
+  type2: 10
+  catchRate: 255
+  maxHP: 80
+  attack: 105
+  defense: 65
+  spAttack: 60
+  spDefense: 75
+  speed: 130
+  expBase: 2000
+  growthRate: 4
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 24df49a523720de44bde61ddd53be965, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51c72558c201eb940b2c6d2dafc4f843, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 36e24d38a84d2664aa017b703589765a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2b7cea0d9a1228340b079b189ab33289, type: 2}
+    level: 1

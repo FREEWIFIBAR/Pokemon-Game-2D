@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9589846ce12e2a5448ae760ee7d722df, type: 3}
+  m_Name: Zapdos
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  ID: 0
+  name: Zapdos
+  description: 
+  frontSprite: {fileID: 1257400235282056063, guid: ac1ede6f3a7acc149b2fb95f0b45ee3d, type: 3}
+  backSprite: {fileID: 1257400235282056063, guid: ab84b40cede171343a46d402a8e31413, type: 3}
+  type1: 4
+  type2: 10
+  catchRate: 255
+  maxHP: 90
+  attack: 90
+  defense: 85
+  spAttack: 125
+  spDefense: 90
+  speed: 100
+  expBase: 3000
+  growthRate: 0
+  learnableMoves:
+  - move: {fileID: 11400000, guid: d1e6922dca1be0d48b18557c452d29f1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2b7cea0d9a1228340b079b189ab33289, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 94296c1a579ebb34a98fffc05461e28e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: adbf316ca16a2644eb93d6cf8c433607, type: 2}
+    level: 1

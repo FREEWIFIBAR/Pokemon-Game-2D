@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9589846ce12e2a5448ae760ee7d722df, type: 3}
+  m_Name: Snorlax
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  ID: 0
+  name: Snorlax
+  description: 
+  frontSprite: {fileID: 4388773979155026838, guid: e6c78208a58c49e488be3b9dfee1c427, type: 3}
+  backSprite: {fileID: 4388773979155026838, guid: 42a44e5371685b249a3dd114abb23388, type: 3}
+  type1: 1
+  type2: 0
+  catchRate: 255
+  maxHP: 160
+  attack: 110
+  defense: 65
+  spAttack: 65
+  spDefense: 110
+  speed: 30
+  expBase: 2000
+  growthRate: 4
+  learnableMoves:
+  - move: {fileID: 11400000, guid: cdedbf52e598f8641b5205c0e5311629, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 94296c1a579ebb34a98fffc05461e28e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf7f0288b1bdb2942b45dd4adeb3842b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 24df49a523720de44bde61ddd53be965, type: 2}
+    level: 1

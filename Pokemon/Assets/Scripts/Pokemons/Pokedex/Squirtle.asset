@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9589846ce12e2a5448ae760ee7d722df, type: 3}
+  m_Name: Squirtle
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  ID: 7
+  name: Squirtle
+  description: 
+  frontSprite: {fileID: 7028616704906629411, guid: 2b39d158b98ebc749aaa7386e7ba622b, type: 3}
+  backSprite: {fileID: 7028616704906629411, guid: 9d004dff93382174385f801581c588ca, type: 3}
+  type1: 3
+  type2: 0
+  catchRate: 255
+  maxHP: 44
+  attack: 48
+  defense: 65
+  spAttack: 50
+  spDefense: 64
+  speed: 43
+  expBase: 1000
+  growthRate: 1
+  learnableMoves:
+  - move: {fileID: 11400000, guid: cdedbf52e598f8641b5205c0e5311629, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 085e9ef624288a64483ca709e4a664ec, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: f747593b3eea83a41bd4f6f219dd7031, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 33f55d00190f1d74ba3aad3c834ab7ff, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 24df49a523720de44bde61ddd53be965, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: f63780cb65c5db64ea5037c4e8a61277, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: bf7f0288b1bdb2942b45dd4adeb3842b, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 8fdf30609f0b72b44b649d5e8efb13cf, type: 2}
+    level: 37

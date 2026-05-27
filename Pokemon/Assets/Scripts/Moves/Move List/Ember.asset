@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ea0311da420d64f9de5d80d1211b18, type: 3}
+  m_Name: Ember
+  m_EditorClassIdentifier: Assembly-CSharp::MoveBase
+  name: Ascuas
+  description: 
+  type: 2
+  power: 40
+  accuracy: 100
+  alwaysHit: 0
+  pp: 25
+  moveType: 1
+  effects:
+    boostings: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects:
+  - boostings: []
+    status: 1
+    volatileStatus: 0
+    chance: 10
+    target: 1
+  target: 1

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9589846ce12e2a5448ae760ee7d722df, type: 3}
+  m_Name: Moltres
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  ID: 0
+  name: Moltres
+  description: 
+  frontSprite: {fileID: 3443992843457924868, guid: 592332e6ff9d4a34094b66fc4701cf56, type: 3}
+  backSprite: {fileID: 3443992843457924868, guid: 4febeee222a5fa0469c647efe8858598, type: 3}
+  type1: 2
+  type2: 10
+  catchRate: 255
+  maxHP: 90
+  attack: 100
+  defense: 90
+  spAttack: 125
+  spDefense: 85
+  speed: 90
+  expBase: 3000
+  growthRate: 0
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 2b7cea0d9a1228340b079b189ab33289, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 94296c1a579ebb34a98fffc05461e28e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 61ab1358e34b4ad4cb55f2687f8b03e8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c0d6890de20ee2e418faeed13b96fce8, type: 2}
+    level: 1

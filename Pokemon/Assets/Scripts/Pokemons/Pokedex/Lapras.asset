@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9589846ce12e2a5448ae760ee7d722df, type: 3}
+  m_Name: Lapras
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  ID: 0
+  name: Lapras
+  description: 
+  frontSprite: {fileID: -6919194877884806517, guid: b05cc741b669628489c95a9ae1b25d5a, type: 3}
+  backSprite: {fileID: -6919194877884806517, guid: e28d34bb0153458498ed20a335ddb648, type: 3}
+  type1: 3
+  type2: 6
+  catchRate: 255
+  maxHP: 130
+  attack: 85
+  defense: 80
+  spAttack: 85
+  spDefense: 95
+  speed: 60
+  expBase: 2000
+  growthRate: 4
+  learnableMoves:
+  - move: {fileID: 11400000, guid: bbdfa6bf7b7dd7240bb57bf3483cb766, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8fdf30609f0b72b44b649d5e8efb13cf, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33f55d00190f1d74ba3aad3c834ab7ff, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 36e24d38a84d2664aa017b703589765a, type: 2}
+    level: 1
